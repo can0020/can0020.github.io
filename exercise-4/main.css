@@ -27,8 +27,13 @@ body {
 	float left;
 }
 
+li {
+	display: block;
+}
+
 div {
-	box-sizing: content-box;
 	width: 300px;
 	padding: 20px;
+	display: inline-block;
+	padding: 4px;
 }
