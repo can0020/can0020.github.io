@@ -2,6 +2,15 @@ h4 {
 	color: darkblue;
 }
 
+h3 {
+	color: #4682b4;
+}
+
 body {
 	font-family:  'MyWebFont', Arial, sans-serif;
+}
+
+#CarlDair {
+	background-color: darkorange;
+	color: white;
 }
