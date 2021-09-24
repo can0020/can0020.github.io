@@ -1,0 +1,34 @@
+h1 {
+	color: #322920;
+}
+
+h2 {
+	color: #6b5744;
+}
+
+h3 {
+	color: rosybrown;
+}
+body {
+	font-family:  'GoogleFont', SitckNoBills, sans-serif;
+}
+
+#TR {
+	color: #425ba3;
+	font-weight: bold;
+}
+
+#TI {
+	color: #ba6c33;
+	font-weight: bold;
+}
+
+#sidebar {
+	float left;
+}
+
+div {
+	box-sizing: content-box;
+	width: 300px;
+	padding: 20px;
+}
