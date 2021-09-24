@@ -23,8 +23,8 @@ body {
 	font-weight: bold;
 }
 
-#sidebar {
-	float left;
+#highlight {
+	color: blue;
 }
 
 li {
