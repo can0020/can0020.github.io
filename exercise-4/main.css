@@ -1,5 +1,6 @@
 h1 {
 	color: #322920;
+	font-family: 'Stick No Bills', sans-serif;
 }
 
 h2 {
@@ -9,7 +10,7 @@ h2 {
 h3 {
 	color: rosybrown;
 }
-body {
+body {	
 	font-family:  'GoogleFont', SitckNoBills, sans-serif;
 }
 
