@@ -10,35 +10,39 @@ html {
 .1 {
 	border: 1px black;
 	padding: 150px;
-	font-sie: 50px;
+	font-size: 50px;
 	text-align: center;
 }
 
 .2 {
 	border: 1px black;
 	padding: 150px;
-	font-sie: 50px;
-	text-align: center;
+	font-size: 50px;
+	justify-content: center;
 }
 
 .3 {
 	border: 1px black;
 	padding: 150px;
-	font-sie: 50px;
+	font-size: 100px;
+}
+
+.3.p {
+	color: red;
 	text-align: center;
 }
 
 .4 {
 	border: 1px black;
 	padding: 150px;
-	font-sie: 50px;
+	font-size: 50px;
 	text-align: center;
 }
 
 .5 {
 	border: 1px black;
 	padding: 150px;
-	font-sie: 50px;
+	font-size: 50px;
 	text-align: center;
 }
 
@@ -52,21 +56,21 @@ html {
 .7 {
 	border: 1px black;
 	padding: 150px;
-	font-sie: 50px;
+	font-size: 50px;
 	text-align: center;
 }
 
 .8 {
 	border: 1px black;
 	padding: 150px;
-	font-sie: 50px;
+	font-size: 50px;
 	text-align: center;
 }
 
 .9 {
 	border: 1px black;
 	padding: 150px;
-	font-sie: 50px;
+	font-size: 50px;
 	text-align: center;
 }
 .circle1 {
@@ -74,15 +78,25 @@ html {
 	height: 20px;
 	background-color: black;
 	border-radius: 50%;
-	transform: translate(140px, 22px);
+	transform: translate(30px, 25px);
+	animation-name: circle1;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 .circle2 {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	background-color: black;
 	border-radius: 50%;
-	transform: translate(230px, 165px);
+	transform: translate(30px, 25px);
+	animation-name: circle2;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 .circle3 {
@@ -90,31 +104,51 @@ html {
 	height: 20px;
 	background-color: black;
 	border-radius: 50%;
-	transform: translate(170px, 60px);
+	transform: translate(30px, 25px);
+	animation-name: circle3;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 .circle4 {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	background-color: black;
 	border-radius: 50%;
-	transform: translate(130px, 270px);
+	transform: translate(30px, 25px);
+	animation-name: circle4;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 .circle5 {
-	width: 40px;
-	height: 40px;
-	background-color: black;
-	border-radius: 50%;
-	transform: translate(10px, 5px);
-}
-
-.circle6 {
 	width: 20px;
 	height: 20px;
 	background-color: black;
 	border-radius: 50%;
-	transform: translate(34px, 20px);
+	transform: translate(30px, 25px);
+	animation-name: circle5;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.circle6 {
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	border-radius: 50%;
+	transform: translate(30px, 25px);
+	animation-name: circle6;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 .circle7 {
@@ -122,15 +156,25 @@ html {
 	height: 20px;
 	background-color: black;
 	border-radius: 50%;
-	transform: translate(65px, -80px);
+	transform: translate(30px, 25px);
+	animation-name: circle7;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 .circle8 {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	background-color: black;
 	border-radius: 50%;
-	transform: translate(-20px, 30px);
+	transform: translate(30px, 25px);
+	animation-name: circle8;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 .circle9 {
@@ -138,7 +182,12 @@ html {
 	height: 20px;
 	background-color: black;
 	border-radius: 50%;
-	transform: translate(105px, -75px);
+	transform: translate(30px, 25px);
+	animation-name: circle9;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 .line1 {
@@ -228,6 +277,221 @@ html {
 	}	
 }
 
+@keyframes circle1 {
+	0% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 90px;
+		height: 90px;
+		background-color: yellowgreen;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	100% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
+
+@keyframes circle2 {
+	0% { 
+		width: 30px;
+		height: 30px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 20px;
+		height: 20px;
+		background-color: lightgray;
+		border-radius: 50%;
+		transform: translate(40px, 105px);
+	}
+	100% { 
+		width: 30px;
+		height: 30px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
+
+@keyframes circle3 {
+	0% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 30px;
+		height: 30px;
+		background-color: lightgray;
+		border-radius: 50%;
+		transform: translate(20px, 25px);
+	}
+	100% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
+
+@keyframes circle4 {
+	0% { 
+		width: 30px;
+		height: 30px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 20px;
+		height: 20px;
+		background-color: dimgray;
+		border-radius: 50%;
+		transform: translate(60px, 25px);
+	}
+	100% { 
+		width: 30px;
+		height: 30px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
+
+@keyframes circle5 {
+	0% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 30px;
+		height: 30px;
+		background-color: dimgray;
+		border-radius: 50%;
+		transform: translate(5px, 25px);
+	}
+	100% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
+
+@keyframes circle6 {
+	0% { 
+		width: 30px;
+		height: 30px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 40px;
+		height: 40px;
+		background-color: lightgray;
+		border-radius: 50%;
+		transform: translate(80px, 25px);
+	}
+	100% { 
+		width: 30px;
+		height: 30px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
+
+@keyframes circle7 {
+	0% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 30px;
+		height: 30px;
+		background-color: lightgray;
+		border-radius: 50%;
+		transform: translate(0px, 25px);
+	}
+	100% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
+
+@keyframes circle8 {
+	0% { 
+		width: 30px;
+		height: 30px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 20px;
+		height: 20px;
+		background-color: dimgray;
+		border-radius: 50%;
+		transform: translate(100px, 25px);
+	}
+	100% { 
+		width: 30px;
+		height: 30px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
+
+@keyframes circle9 {
+	0% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}
+	50% { 
+		width: 30px;
+		height: 30px;
+		background-color: dimgray;
+		border-radius: 50%;
+		transform: translate(-30px, 25px);
+	}
+	100% { 
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		transform: translate(30px, 25px);
+	}	
+}
 .rec1 {
 	width: 30px;
 	height: 10px;
