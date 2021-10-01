@@ -226,9 +226,7 @@ html {
 	animation-fill-mode: forwards;
 }
 
-.line3: hover {
-	width: 3000px;
-	height: 500px;
+.a: hover {
 	background-color: yellowgreen;
 	cursor: pointer;
 }
