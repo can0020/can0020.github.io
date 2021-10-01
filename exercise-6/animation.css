@@ -226,6 +226,13 @@ html {
 	animation-fill-mode: forwards;
 }
 
+.line3: hover {
+	width: 3000px;
+	height: 500px;
+	background-color: yellowgreen;
+	cursor: pointer;
+}
+
 @keyframes line1 {
 	0% { 
 		width: 5px;
