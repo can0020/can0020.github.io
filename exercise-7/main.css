@@ -1,12 +1,15 @@
 @media screen and (max-width: 828px) {
-	html {
-		font-size: 22px;
+	div {
+		display: flex;
+		font-size: 50px;
+		img: 50%;
 	}
+
 }
 
-@media screen and (max-width: 2800px) {
+@media screen and (min-width: 1200px) {
 	html {
-		font-size: 15px;
+		margin: ;
 	}
 }
 
