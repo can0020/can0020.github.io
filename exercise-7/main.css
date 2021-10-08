@@ -1,0 +1,51 @@
+@media screen and (max-width: 828px) {
+	html {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 2800px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+h1 {
+	color: #322920;
+	font-family: 'Stick No Bills', sans-serif;
+}
+
+h2 {
+	color: #6b5744;
+}
+
+h3 {
+	color: rosybrown;
+}
+body {	
+	font-family:  'GoogleFont', SitckNoBills, sans-serif;
+}
+
+#TR {
+	color: #425ba3;
+	font-weight: bold;
+}
+
+#TI {
+	color: #ba6c33;
+	font-weight: bold;
+}
+
+#highlight {
+	color: blue;
+}
+
+li {
+	display: block;
+}
+
+div {
+	width: 300px;
+	padding: 25px;
+	display: inline-block;
+}
