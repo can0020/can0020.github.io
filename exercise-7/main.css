@@ -43,9 +43,6 @@ body {
 	box-sizing: border-box;
 	padding: 3px;
 }
-img {
-	width: 100%;
-}
 div {
 	width: 300px;
 	padding: 25px;
@@ -53,14 +50,14 @@ div {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
 	p {
 		font-size: 20px;
 		padding: 10px;
 		display: flex;
 	}	
 	img {
-		width: 100%;
+		width: 700px;
 	}
 	#TR {
 		padding-right: 10px;
@@ -69,10 +66,10 @@ div {
 		padding-right: 10px;
 	}
 	.img {
-		width: 80%;
+		max-width: 500px;
 	}
 	.profile {
-		width: 50%;
+		width: 80%;
 	}
 
 }
