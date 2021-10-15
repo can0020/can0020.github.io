@@ -50,7 +50,7 @@ div {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 828px) {
 	p {
 		font-size: 20px;
 		padding: 10px;
@@ -74,15 +74,15 @@ div {
 
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 2560px) {
 	p {
 		display: flex;
 		align-content: center;
 	}
     .profile {
-    	width: 50%;
+    	width: 90%;
 	}
     .img {
-		width: 50%;
+		width: 500px;
     }
 }
