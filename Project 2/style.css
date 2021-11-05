@@ -10,11 +10,9 @@
 
 
 img {
-	position: relative;
 	height: 100%;
 	display: block;
 	float: left;
-	position: absolute;
 	bottom: 0;
 }
 
@@ -26,27 +24,29 @@ img {
 	padding-left: 10px;
 }
 
-.button img {
-	max-width: 100%;
-	position: relative;
-}
+
 
 .button .text {
-	display: none;
+	width: 350px;
+	height: 130px;
 	position: absolute;
-	bottom: 5%;
-	left: 5%;
-	right: 5%;
+	top: 80%;
+	left: 80%;
 	background-color: whitesmoke;
-	padding: .5em;
-	font-size: 70px;
-	color: #000000;
-	font-family: 'GT-Walsheim-Pro-Regular';
+	padding: 15px;
+	font-size: 10pt;
+	border-width: thin;
+	border-color: #black;
+	color: whitesmoke;
+	font-family: 'GodoB';
 	text-align: center;
+	display: block;
 }
 
-.button:hover .text {
+.button:hover .text{
+	color: black;
 	display: block;
+	cursor: pointer;
 }
 
 
@@ -66,15 +66,46 @@ img {
 	font-family: 'GT-Walsheim-Pro-Regular';
 }
 
-.wateringCan {
-	height: 75vh;
-	transform: translate(0px, 170px);
+.parent {
+	position: relative;
+}
+.ground {
+	width: 1300px;
+	transform: translate(60px,400px);
+	position: relative;	
 }
 
-.ground {
-	width: 500vh;
-	position: static;
+.wateringCan {
+	height: 550px;
+	transform: translate(50px, 670px);
+	position: absolute;
 }
+
+.wateringCan:focus {
+	animation: watering .3s ease-in forwards;
+}
+
+@keyframes watering {
+	100% {
+		transform: translate(10px,100px);
+		transform: rotate(45deg);
+	}
+}
+
+.wateringCan:active {
+	background-image: url('./watering.svg');
+	transform: translate(300px, 670px);
+}
+
+#plant {
+	text-align: cetner;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+}
+
 
 /*button {
 	width: 40px;

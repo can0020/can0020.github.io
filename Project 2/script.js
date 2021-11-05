@@ -41,3 +41,17 @@ function displayImg(){
 //     var num = Math.floor(Math.random() * 4);
 //     document.canvas.src = imagesArray[num];
 // }
+
+
+var num 1;
+
+function changePic(idx) {
+    if (idx) {
+        if (num == 8) return;
+            num++;
+    }
+    var imgTag = document.getElementById("photo");
+    imgTag.setAttribute("src", "0" + num + ".svg");
+}
+
+
