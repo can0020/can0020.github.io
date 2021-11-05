@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'GodoM';
+  src:  url('GodoM.otf');
+}
+
+@font-face {
   font-family: 'GT-Walsheim-Pro-Regular';
   src:  url('GT-Walsheim-Pro-Regular.otf');
 }
@@ -32,12 +37,12 @@ img {
 	position: absolute;
 	top: 80%;
 	left: 80%;
-	background-color: whitesmoke;
+	background-color: white;
 	padding: 15px;
 	font-size: 10pt;
 	border-width: thin;
 	border-color: #black;
-	color: whitesmoke;
+	color: white;
 	font-family: 'GodoB';
 	text-align: center;
 	display: block;
@@ -47,6 +52,7 @@ img {
 	color: black;
 	display: block;
 	cursor: pointer;
+	background-color: whitesmoke;
 }
 
 
@@ -64,6 +70,8 @@ img {
 #dateTime {
 	font-size: 15pt;
 	font-family: 'GT-Walsheim-Pro-Regular';
+	float: right;
+	font-family: 'GodoB';
 }
 
 .parent {
@@ -97,15 +105,33 @@ img {
 	transform: translate(300px, 670px);
 }
 
-#plant {
-	text-align: cetner;
-}
+/*#plants img {
+	position: absolute;
+	transform: translate(100px, -650px);
+}*/
 
 button {
 	width: 100px;
 	height: 30px;
 }
 
+#rect {
+	width: 560px;
+	height: 300px;
+	top: 50px;
+	left: 400px;
+	position: absolute;
+	background-color: whitesmoke;
+	border-width: thin;
+	border-color: black;
+	text-align: center;
+	font-size: 15pt;
+	border-color: black;
+  font-family: 'GodoM';
+
+
+
+}
 
 /*button {
 	width: 40px;

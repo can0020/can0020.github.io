@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p class="frame"><span id="dateTime"></span></p>
+	<script>
+		var dateTime = new Date();
+		document.getElementById("dateTime").innerHTML = dateTime.toLocaleString();
+	</script>
+
+	<div class="button"><img src="button1.png">
+		<div class="text">
+			Welcome to Potato Farm!<br><br>
+			Potato is already planted in the ground and you need to water the plant every day in order to harvest the full-grown potato.<br><br>
+			Potatoes usually take 80-100 days to grow and it is important to visit every day to water your potato! 
+		</div></div>
+	<div class="parent"><img class="ground" src="ground.svg"><img class="wateringCan" src="wateringcan.svg"></div>
+	<div class ="img" style="width:400px; height: 400px;" id ="img"></div>
+
+	<img class ="plants" id="img0" src="00.svg" style="width:10%; transform: translate(550px, -200px);">
+	<img class ="plants" id="img1" src="01.svg" style="width:10%; transform: translate(550px, -200px);">
+    <img class ="plants" id="img2" src="02.svg" style="width:10%; transform: translate(550px, -200px);">  
+    <img class ="plants" id="img3" src="03.svg" style="width:10%; transform: translate(550px, -200px);">
+    <img class ="plants" id="img4" src="04.svg" style="width:10%; transform: translate(550px, -200px);">  
+    <img class ="plants" id="img5" src="05.svg" style="width:10%; transform: translate(550px, -200px);">
+    <img class ="plants" id="img6" src="06.svg" style="width:10%; transform: translate(550px, -200px);">  
+    <img class ="plants" id="img7" src="07.svg" style="width:10%; transform: translate(550px, -200px);">
+    <img class ="plants" id="img8" src="08.svg" style="width:10%; transform: translate(550px, -200px);"> 
+    <img class ="plants" id="img9" src="09.svg" style="width:10%; transform: translate(550px, -200px);">
+    <div id="rect">Nice Work! Now this potato is off to the manufacturing process.<br><br>However, 3 billion potatoes from the manufacturing process are thrown out. Not only it causing food waste but also wasting energy and water to get the food. <br><br>If you are interested in, check out Food Recovery Network for more information: <br><br><a href="foodrecoverynetwork.org">foodrecoverynetwork.org</a></div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+ 
+<script>
+    $(document).ready(function(){
+            $("#img0").show();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+        $("#img0").click(function(){
+            $("#img0").hide();
+			$("#img1").show();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+            });
+
+        $("#img1").click(function(){ 
+            $("#img0").hide();
+            $("#img1").hide();
+            $("#img2").show();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+            });
+ 
+        $("#img2").click(function(){
+        	$("#img0").hide();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").show();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+            });
+        $("#img3").click(function(){
+        	$("#img0").hide();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").show();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+            });
+
+        $("#img4").click(function(){
+        	$("#img0").hide();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").show();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+            });
+
+        $("#img5").click(function(){
+        	$("#img0").hide();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").show();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+            });
+        $("#img6").click(function(){
+        	$("#img0").hide();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").show();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+            });
+        $("#img7").click(function(){
+        	$("#img0").hide();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").show();
+        	$("#img9").hide();
+        	$("#rect").hide();
+
+            });
+        $("#img8").click(function(){
+        	$("#img0").hide();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").show();
+        	$("#rect").hide();
+
+            });
+
+        $("#img9").click(function(){
+        	$("#img0").hide();
+            $("#img1").hide();
+            $("#img2").hide();
+            $("#img3").hide();
+            $("#img4").hide();
+            $("#img5").hide();
+            $("#img6").hide();
+            $("#img7").hide();
+            $("#img8").hide();
+        	$("#img9").hide();
+        	$("#rect").show();
+
+            });
+    });
+</script>
+ 
+<!-- 	<script type="text/javascript">
+		state = 0;
+		function changeImage() {
+			if (state = 1) {
+				document.getElementById('image').src = "02.svg";
+			}
+			if (state = 2) {
+				document.getElementById('image').src = "03.svg";
+			}
+			if (state = 3) {
+				document.getElementById('image').src = "04.svg";
+			}
+			else {
+				state = 0;
+				document.getElementById('image').src = "01.svg";
+			}
+		}
+	</script>
+	<p><img id="image" onclick="changeImage()" border=0 src="01.svg"/></p> -->
+
+
+
+
+<!-- 	<div id="plant">
+		<p><img src="01.svg" id="photo" alt="02.svg"></p>
+		</div>
+		<p>
+			<button onclick="changePic(1);">hi</button>
+		</p>
+	</div> -->
+	<script src="script.js"></script>
+</body>
