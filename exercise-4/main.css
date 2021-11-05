@@ -1,6 +1,21 @@
+@font-face {
+  font-family: 'IO';
+  src:  url('IO.otf');
+}
+
+@font-face {
+  font-family: 'GT-Walsheim-Pro-Regular';
+  src:  url('GT-Walsheim-Pro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'HaaLigIta';
+  src:  url('HaaLigIta.otf');
+}
+
 h1 {
 	color: #322920;
-	font-family: 'Stick No Bills', sans-serif;
+	font-family: 'IO';
 }
 
 h2 {
@@ -9,14 +24,15 @@ h2 {
 
 h3 {
 	color: rosybrown;
+	font-family: 'HaaLigIta';
 }
 body {	
-	font-family:  'GoogleFont', SitckNoBills, sans-serif;
+	font-family:  'GT-Walsheim-Pro-Regular';
 }
 
 #TR {
 	color: #425ba3;
-	font-weight: bold;
+	font-weight: bold; 
 }
 
 #TI {
@@ -35,6 +51,11 @@ li {
 div {
 	width: 300px;
 	padding: 20px;
-	display: inline-block;
+	display: block;
 	padding: 4px;
+	float: right;
+}
+
+a {
+	float: lefts;
 }
