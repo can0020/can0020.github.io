@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'GodoB';
+  src:  url('GodoB.otf');
+}
+
+
+img {
+	position: relative;
+	height: 32vh;
+	display: block;
+	float: left;
+	position: absolute;
+	bottom: 0;
+}
+
+.frame {
+	padding: 15px;
+	width: 150px;
+	height: 150px;
+	border-radius: 20%;
+	background-color: #ffffff;
+	border-width: 3px;
+	border-color: #000000;
+	float: right;
+}
+
+#dateTime {
+	font-size: 20pt;
+	font-family: 'GodoB';
+}
+
+.wateringCan {
+	transform: translate(150px, 550px);
+}
+
+.button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	text-align: center;
+	font-size: 15pt;
+	border-color: black;
+	border-width: medium;
+	font-family: 'GodoB';
+	transform: translate(20px, -350px);
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+	<p class="frame"><span id="dateTime"></span></p>
+	<script>
+		var dateTime = new Date();
+		document.getElementById("dateTime").innerHTML = dateTime.toLocaleString();
+	</script>
+	
+	<div class="ground"><img src="ground.png"></div>
+
+	<div class="wateringCan"><img src="wateringcan.png"></div>
+
+	<div class ="img" style="width:400px; height: 400px;" id ="img"></div>
+	<div class = "button">?</div>
+</body>
