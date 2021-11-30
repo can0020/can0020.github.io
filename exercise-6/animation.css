@@ -502,3 +502,356 @@ html {
 	height: 10px;
 	background-color: black;
 }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  	max-height: 200px;
+
+}
+.grid1 {
+	transform: scale(0.9) translate(150px, 35px);
+	z-index: 10;
+	position: relative;
+}
+
+.c1 {
+	width: 50px;
+	height: 50px;
+	background-color: deeppink;
+	border-radius: 50%;
+	transform: translate(30px, 40px);
+}
+
+.c2 {
+	width: 25px;
+	height: 25px;
+	background-color: lightgray;
+	border-radius: 50%;
+	transform: translate(70px, 45px);
+}
+
+.c3 {
+	width: 30px;
+	height: 30px;
+	background-color: lightgray;
+	border-radius: 50%;
+	transform: translate(20px, 25px);
+}
+
+.c4 {
+	width: 25px;
+	height: 25px;
+	background-color: dimgray;
+	border-radius: 50%;
+	transform: translate(80px, 30px);
+}
+
+.c5 {
+	width: 35px;
+	height: 35px;
+	background-color: dimgray;
+	border-radius: 50%;
+	transform: translate(5px, 15px);
+}
+
+.c6 {
+	width: 40px;
+	height: 40px;
+	background-color: lightpink;
+	border-radius: 50%;
+	transform: translate(85px, 10px);
+}
+
+.c7 {
+	width: 25px;
+	height: 25px;
+	background-color: #9E9E9E;
+	border-radius: 50%;
+	transform: translate(45px, -30px);
+}
+
+.c8 {
+	width: 20px;
+	height: 20px;
+	background-color: dimgray;
+	border-radius: 50%;
+	transform: translate(110px, -10px);
+}
+
+.c9 {
+	width: 20px;
+	height: 20px;
+	background-color: lightgray;
+	border-radius: 50%;
+	transform: translate(-5px, -60px);
+}
+
+.c10 {
+	width: 35px;
+	height: 35px;
+	background-color: hotpink;
+	border-radius: 50%;
+	transform: translate(-25px, -50px);
+}
+
+.grid2 {
+	transform: scale(0.5) translate(-250px, -500px);
+	z-index: 10;s
+}
+
+.stem {
+	width: 20px;
+	height: 80px;
+	background-image: linear-gradient(#C99E6E, #845C2F, #543410);
+	border-radius: 5px;
+	transform: translate(507px, 145px);
+}
+
+.apple1 {
+	width: 400px;
+	height: 400px;
+	background-image: linear-gradient(orangered, #8C2618);
+	border-radius: 50%;
+	transform: scale(.85,1.0) translate(300px, 100px);
+}
+
+.apple2 {
+	width: 400px;
+	height: 400px;
+	background-image: linear-gradient(orangered, #8C2618);
+	border-radius: 50%;
+	transform: scale(.85,1.0) translate(450px, -300px);
+}
+
+.leaf {
+	width: 40px;
+	height: 30px;
+	background-color: #4F9A3C;
+	background-image: linear-gradient(#76BC17, #A6EA4A, #72F174, #4F9A3C);
+	border-radius: 70px 10px 70px 10px;
+	transform: scale(2) translate(273px, 40px);
+}
+
+.circle11 {
+	width: 48px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 50%;
+	transform: translate(230px, 270px);
+}
+
+.circle22 {
+	width: 48px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 50%;
+	transform: translate(200px, 165px);
+}
+
+.circle33 {
+	width: 48px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 50%;
+	transform: translate(170px, 60px);
+}
+
+.circle44 {
+	width: 48px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 50%;
+	transform: translate(130px, 270px);
+}
+
+.circle55 {
+	width: 48px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 50%;
+	transform: translate(10px, 5px);
+}
+
+.circle66 {
+	width: 48px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 50%;
+	transform: translate(34px, 20px);
+}
+
+.circle77 {
+	width: 120px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 60px;
+	transform: translate(65px, -80px);
+}
+
+.circle88 {
+	width: 48px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 50%;
+	transform: translate(-20px, 30px);
+}
+
+.circle99 {
+	width: 48px;
+	height: 40px;
+	background-color: #FFC300;
+	border-radius: 50%;
+	transform: translate(105px, -75px);
+}
+
+.grid3 {
+	transform: translate(00px,110px);
+	z-index: 10;
+}
+
+.rect1 {
+	width: 30px;
+	height: 130px;
+	background-color: greenyellow;
+	transform: translate(10px,0px);
+}
+
+.rect2 {
+	width: 30px;
+	height: 130px;
+	background-color: mediumblue;
+	transform: translate(80px,-130px);
+}
+
+.rect3 {
+	width: 40px;
+	height: 30px;
+	background-color: #2E9C23;
+	transform: translate(40px,-260px);
+}
+
+.rect4 {
+	width: 40px;
+	height: 30px;
+	background-color: blueviolet;
+	transform: translate(40px,-240px);
+}
+
+.grid4 {
+	transform: translate(110px,-500px);
+}
+
+.triangle1 {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid purple;
+	z-index: 1;
+}
+
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid yellow;
+	z-index: 2;
+	transform: translate(20px,-100px);
+}
+
+.rectangle {
+	width: 100px;
+	height: 10px;
+	background-color: purple;
+	transform: translate(10px,-160px);
+}
+
+.grid5 {
+	transform: translate(278px,-500px);
+}
+
+.square1 {
+	width: 40px;
+	height: 40px;
+	background-color: lightskyblue;
+	border-style: dashed;
+	border-color: royalblue;
+}
+
+.square2 {
+	width: 40px;
+	height: 150px;
+	background-color: lightskyblue;
+	border-style: dashed;
+	border-color: royalblue;
+	transform: translate(46px,0px);
+	z-index: 1;
+}
+
+.square3 {
+	width: 40px;
+	height: 150px;
+	background-color: lightskyblue;
+	border-style: dashed;
+	border-color: royalblue;
+	transform: translate(-46px,-157px);
+	z-index: 1;
+}
+
+.square4 {
+	width: 190px;
+	height: 40px;
+	background-color: lightskyblue;
+	border-style: dashed;
+	border-color: royalblue;
+	transform: translate(-77px,-260px);
+	z-index: 2;
+}
+
+.t1 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 43px 43px;
+	border-color: transparent transparent royalblue transparent;
+	transform: translate(-46px,-405px);
+
+}
+
+.t2 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 43px 0 0 43px;
+	border-color: transparent transparent transparent royalblue;
+	transform: translate(49px,-447px);
+}
+
+.grid6 {
+	transform: translate(20px,-470px);
+}
+
+.line1 {
+	width: 10px;
+	height: 150px;
+	background-color: darkorange;
+	transform: translate(10px) rotate(15deg);
+}
+
+.line2 {
+	width: 10px;
+	height: 150px;
+	background-color: darkorange;
+	transform: translate(60px,-150px) rotate(-15deg);
+}
+
+.line3 {
+	width: 10px;
+	height: 100px;
+	background-color: orange;
+	transform: translate(35px,-270px) rotate(90deg);
+}
