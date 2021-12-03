@@ -18,6 +18,13 @@ html {
   padding: 10px;
 }
 
+.homepage {
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  text-align: left;
+}
+
 h1 {
   font-size: 30px;
   font-family: 'GT-Cinetype-Light';
@@ -25,7 +32,6 @@ h1 {
 }
 .arrow {
   font-family: 'GT-Cinetype-Light';
-  text-align: center;
   font-weight: 0;
 }
 
@@ -152,4 +158,12 @@ input[type=text] {
   top: 30px;
   left: 30px;
   z-index: 0;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0.5;}
+  15% {opacity: 0.8;}
+  35% {opacity: 1;}
+  90% {opacity: 0.8;}
+  100% {opacity:0.5;}
 }
