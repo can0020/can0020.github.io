@@ -26,6 +26,16 @@ html {
   text-align: left;
 }
 
+.list {
+  font-size: 20px;
+  color: black;
+  font-family: 'GT-Cinetype-Light';
+  text-align: left;
+  align-self: flex-end;
+  z-index: 0;
+  transform: translate(0px,-500px);
+}
+
 h1 {
   font-size: 30px;
   font-family: 'GT-Cinetype-Light';
