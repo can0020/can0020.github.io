@@ -37,7 +37,7 @@ h1 {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  filter: blur(30px);
+  filter: blur(10px);
   background: radial-gradient(circle, rgba(248,96,63,0.8) 0%, rgba(255,188,15,0.8) 35%, rgba(47,127,246,0.8) 75%);
   transform: scaleX(0.5);
 }
