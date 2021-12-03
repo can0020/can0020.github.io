@@ -6,6 +6,7 @@
 
 html {
   padding: 5vw;
+  animation: transition 4s ;
 
 }
 
@@ -137,8 +138,19 @@ input[type=text] {
   margin: 0;
   float: left;
   display: inline-block;
+  font-size: 20px;
+  font-family: 'GT-Cinetype-Light';
 }
-
+.button {
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 10%;
+  font-size: 40px;
+  font-family: 'GT-Cinetype-Light';
+  font-weight: 10px;
+}
 .C {
     font-size: 20px;
     font-family: 'GT-Cinetype-Light';
@@ -152,12 +164,10 @@ input[type=text] {
 .F {
     font-size: 20px;
     font-family: 'GT-Cinetype-Light';
-    background: #ccc;
-    margin: 20px;
 }
-.F :focus {
+/*.F :focus {
     outline: 1px solid blue;
-}
+}*/
 
 .homeimg {
   width: 10px;
@@ -179,5 +189,13 @@ input[type=text] {
   90% {opacity: 0.8;}
   100% {opacity:0.5;
       transform: scale(0.35,0.7);
+}
+}
+
+@keyframes transition {
+  0% {
+    opacity:0;
+  }
+  100% {opacity:1;
 }
 }
