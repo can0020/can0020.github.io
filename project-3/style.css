@@ -30,12 +30,19 @@ h1 {
   font-family: 'GT-Cinetype-Light';
   text-align: center;
 }
+.range {
+font-size: 30px;
+  font-family: 'GT-Cinetype-Light';
+  text-align: left;
+  align-self: flex-end;
+}
+
 .arrow {
   font-family: 'GT-Cinetype-Light';
   font-weight: 0;
 }
 
-.arrow a:hover {
+.arrow :hover {
   color: linear-gradient( #faf8f8,#faf8f8,#f5bab6, #b6c6f5);
 }
 
@@ -161,9 +168,16 @@ input[type=text] {
 }
 
 @keyframes fadeIn {
-  0% {opacity:0.5;}
+  0% {
+    opacity:0.5;
+  transform: scale(0.35,0.7);
+  }
   15% {opacity: 0.8;}
-  35% {opacity: 1;}
+  35% {opacity: 1;
+        transform: scale(0.5,1);
+}
   90% {opacity: 0.8;}
-  100% {opacity:0.5;}
+  100% {opacity:0.5;
+      transform: scale(0.35,0.7);
+}
 }
