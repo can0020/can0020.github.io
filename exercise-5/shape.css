@@ -13,9 +13,9 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
-  	max-height: 200px;
-
+/*  	max-height: 200px;*/
 }
+
 .grid1 {
 	transform: scale(0.9) translate(150px, 35px);
 	z-index: 10;
