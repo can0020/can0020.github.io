@@ -13,6 +13,12 @@
   src:  url('HaaLigIta.otf');
 }
 
+
+html {
+	padding: 20px;
+	background-color: #F6F3EA;
+}
+
 h1 {
 	color: #322920;
 	font-family: 'IO';

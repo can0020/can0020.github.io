@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'GT-Haptik-Lazer';
+	src:  url('GT-Haptik-Lazer.otf');
+}
+
+@font-face {
+	font-family: 'GT-America-Regular';
+	src:  url('GT-America-Regular.otf');
+}
+
+html {
+/*	background-image: linear-gradient(to left, #D0ED2A, #D0CCF6, #56C5E7);
+*/
+	color: #ffffff;
+	max-height: 200px;
+}
+
+h1 {
+	color: #786CEE;
+/*	color: linear-gradient(to left, #D0ED2A, #D0CCF6, #56C5E7);
+*/	font-family: 'GT-Haptik-Lazer';
+	text-align: center;
+}
+
+p {
+	color: #ffffff;
+	font-family: 'GT-America-Regular';
+	text-align: center;
+}
+
+a:active {
+	color: #42D4CD;
+} 
+
+a:hover {
+	color: #AAE565;
+} 
+
+a {
+	color: #EC3395;
+}
+
+body {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+button {
+	font-family: 'GT-America-Regular';
+	background-color: #786CEE;
+	color: white;
+
+}
+
+.dark-mode {
+  background-color: black;
+}
+

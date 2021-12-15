@@ -26,6 +26,10 @@ html {
   text-align: left;
 }
 
+a {
+  color: blue;
+}
+
 .list {
   font-size: 20px;
   color: black;
@@ -151,12 +155,15 @@ input[type=text] {
   font-size: 20px;
   font-family: 'GT-Cinetype-Light';
 }
+
+div {
+  font-family: 'GT-Cinetype-Light';
+  text-align: left;
+}
 .button {
   width: 70px;
   height: 40px;
   text-align: center;
-  background-color: whitesmoke;
-  border-radius: 10%;
   font-size: 40px;
   font-family: 'GT-Cinetype-Light';
   font-weight: 10px;
@@ -190,7 +197,7 @@ input[type=text] {
 @keyframes fadeIn {
   0% {
     opacity:0.5;
-  transform: scale(0.35,0.7);
+  transform: scale(10);
   }
   15% {opacity: 0.8;}
   35% {opacity: 1;
@@ -198,9 +205,10 @@ input[type=text] {
 }
   90% {opacity: 0.8;}
   100% {opacity:0.5;
-      transform: scale(0.35,0.7);
+      transform: scale(10);
 }
 }
+
 
 @keyframes transition {
   0% {

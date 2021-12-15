@@ -1,13 +1,30 @@
+@font-face {
+  font-family: 'GT-America-Regular';
+  src:  url('GT-America-Regular.otf');
+}
+
+@font-face {
+  font-family: 'GT-Haptik-Regular';
+  src:  url('GT-Haptik-Regular.otf');
+}
+
 h4 {
+	font-family: 'GT-America-Regular';
 	color: darkblue;
 }
 
 h3 {
+	font-family: 'GT-America-Regular';
 	color: #4682b4;
 }
 
 body {
-	font-family:  'MyWebFont', Arial, sans-serif;
+	font-family: 'GT-America-Regular';
+}
+
+li {
+	font-family: 'GT-Haptik-Regular';
+	font-size: 12pt;
 }
 
 #CarlDair {
