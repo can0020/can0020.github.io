@@ -27,6 +27,6 @@
         else if (myNumber < 41){
              link = 8;
         }
-        window.location.replace("https://can0020.github.io/project-3/"+link+".html");
+        window.location.replace("https://can0020.github.io/projects/p3-input-output/"+link+".html");
     }
 
